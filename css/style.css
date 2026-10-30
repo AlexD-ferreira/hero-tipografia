@@ -4,11 +4,72 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: 1200;
+    margin-bottom: 30px;
+}
 body {
     font-family: "orbitron","varela round","sora";
+    background-color: #0B0F19;
+}
+.hero{
+    margin-top: 12%;
 }
 
-.exemplo {
-    padding: 20px;
-    background-color: red;
+.principal{
+    color: #FFFFFF;
+
+}
+
+.tag{
+    background-color: #112434;
+    color: #2FAAE5;
+    border-radius: 20px;
+    font-weight: 600;
+    padding : 6px 16px;
+    margin-bottom: 30px ;
+    display: inline-block;
+}
+
+.subtitulo{
+    color: #75858E;
+    line-height: 1.6;
+    font-weight: 500;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+}
+.aviso-oculto{
+    display: none;
+    color: #2FAAE5;
+}
+
+.button-1{
+    color: #0D182C;
+    background-color: #35B6F1;
+    display: block;
+    padding : 2px 10px;
+    margin-bottom: 30px ;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid #0B0F19;
+}
+
+
+.button-2{
+    color: #DBDED6;
+    background-color: #0B0F19;
+    display: inline-block;
+    padding : 2px 10px;
+    margin-bottom: 30px ;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid white;
 }
